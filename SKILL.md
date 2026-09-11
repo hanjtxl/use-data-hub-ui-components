@@ -106,5 +106,3 @@ description: Select and verify React UI components in business repositories when
 2. 保持远程请求、业务状态和错误处理的所有权清晰，不让组件选型改变未授权的业务架构。
 3. 检查每个意图都有且只有一个主要实现归属，并确认实际安装版本与所用 Catalog 的 `packageVersion` 一致。
 4. 运行与改动相称的类型检查、测试或 Demo 验证，并按“选型结果反馈”逐项报告组件命中、版本决定、降级原因和未完成的验证。
-
-只有真实对比测试证明 Catalog、README、Demo 和类型仍不足以指导某个组件的实现时，才为该组件补充 Recipe 或 Few-shot；不要把组件级 API 教程继续堆入总控 skill。
